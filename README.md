@@ -20,20 +20,16 @@ Hosted a static website on AWS EC2 using Nginx web server.
 ## Result
 Website successfully hosted and accessible via EC2 public IP.
 
-## Screenshots
-
-### Website Live
-![Website](Screenshot from 2026-03-21 22-33-58.png)
-
 ## Project Structure
-
+```
 ec2-nginx-static-website/
 ├── index.html          # Main website HTML file
 ├── userdata.sh         # Automation script for EC2 setup
 └── README.md           # Project documentation
+```
 
 ## Architecture
-
+```
 +------------------+
 |   User/Browser   |
 +------------------+
@@ -60,9 +56,15 @@ ec2-nginx-static-website/
 |  Website Loads   |
 |  in Browser  ✅  |
 +------------------+
+```
+
+## Screenshots
+
+### Website Live
+![Website](Screenshot%20from%202026-03-21%2022-33-58.png)
 
 ### EC2 Instance Running
-![EC2](Screenshot from 2026-03-21 22-34-42.png)
+![EC2](Screenshot%20from%202026-03-21%2022-34-42.png)
 
 ### Security Group
-![Security Group](Screenshot from 2026-03-21 22-35-38.png)
+![Security Group](Screenshot%20from%202026-03-21%2022-35-38.png)
