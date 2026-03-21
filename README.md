@@ -19,3 +19,14 @@ Hosted a static website on AWS EC2 using Nginx web server.
 
 ## Result
 Website successfully hosted and accessible via EC2 public IP.
+
+## Screenshots
+
+### Website Live
+![Website](Screenshot from 2026-03-21 22-33-58.png)
+
+### EC2 Instance Running
+![EC2](Screenshot from 2026-03-21 22-34-42.png)
+
+### Security Group
+![Security Group](Screenshot from 2026-03-21 22-35-38.png)
