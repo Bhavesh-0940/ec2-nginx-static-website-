@@ -25,6 +25,42 @@ Website successfully hosted and accessible via EC2 public IP.
 ### Website Live
 ![Website](Screenshot from 2026-03-21 22-33-58.png)
 
+## Project Structure
+
+ec2-nginx-static-website/
+├── index.html          # Main website HTML file
+├── userdata.sh         # Automation script for EC2 setup
+└── README.md           # Project documentation
+
+## Architecture
+
++------------------+
+|   User/Browser   |
++------------------+
+         |
+         | HTTP Request (Port 80)
+         ↓
++------------------+
+|   AWS EC2        |
+|  (Ubuntu Server) |
+|                  |
+|  +------------+  |
+|  |   Nginx    |  |
+|  | Web Server |  |
+|  +------------+  |
+|         |        |
+|  +------------+  |
+|  | index.html |  |
+|  +------------+  |
++------------------+
+         |
+         | HTTP Response
+         ↓
++------------------+
+|  Website Loads   |
+|  in Browser  ✅  |
++------------------+
+
 ### EC2 Instance Running
 ![EC2](Screenshot from 2026-03-21 22-34-42.png)
 
